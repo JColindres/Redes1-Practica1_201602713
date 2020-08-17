@@ -20,37 +20,6 @@
         "links": [
             {
                 "filters": {},
-                "link_id": "81e45fd3-4430-475e-b3a9-ebe11d3552d6",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 67,
-                            "y": -5
-                        },
-                        "node_id": "6734c1db-75bf-4115-a36c-466a3bf7a222",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 7,
-                            "y": 44
-                        },
-                        "node_id": "77b11264-74ca-4dfa-8d0f-845e0ecd948b",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "1b44efc1-8cfa-4deb-99cf-73c9d9f10538",
                 "nodes": [
                     {
@@ -203,6 +172,37 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "b435f7da-2e25-4754-ad9e-de88662f867f",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 67,
+                            "y": -5
+                        },
+                        "node_id": "cbbcf2bd-4716-404a-b6ec-8746e519594c",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 7,
+                            "y": 44
+                        },
+                        "node_id": "77b11264-74ca-4dfa-8d0f-845e0ecd948b",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -261,44 +261,6 @@
                 "width": 66,
                 "x": 4,
                 "y": -20,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5009,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": "",
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "TinyLinux-1",
-                    "x": -8,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "TinyLinux-1",
-                "node_id": "6734c1db-75bf-4115-a36c-466a3bf7a222",
-                "node_type": "vmware",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "adapter_type": "e1000",
-                    "adapters": 1,
-                    "headless": false,
-                    "linked_clone": false,
-                    "on_close": "power_off",
-                    "usage": "",
-                    "use_any_adapter": true,
-                    "vmx_path": "C:\\Users\\pablo\\Documents\\Virtual Machines\\Tiny Linux\\Tiny Linux.vmx"
-                },
-                "symbol": ":/symbols/vmware_guest.svg",
-                "template_id": "7dfdd839-6f4b-4a4a-b619-6d8395dbc5ef",
-                "width": 65,
-                "x": -277,
-                "y": 114,
                 "z": 1
             },
             {
@@ -546,6 +508,44 @@
                 "width": 72,
                 "x": 137,
                 "y": -14,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5009,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "TinyLinux-1",
+                    "x": -8,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "TinyLinux-1",
+                "node_id": "cbbcf2bd-4716-404a-b6ec-8746e519594c",
+                "node_type": "vmware",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "e1000",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "usage": "",
+                    "use_any_adapter": false,
+                    "vmx_path": "C:\\Users\\pablo\\Documents\\Virtual Machines\\Tiny Linux\\Tiny Linux.vmx"
+                },
+                "symbol": ":/symbols/vmware_guest.svg",
+                "template_id": "a8619dfc-483f-477b-a64b-6d6576e98c2c",
+                "width": 65,
+                "x": -266,
+                "y": 103,
                 "z": 1
             }
         ]
