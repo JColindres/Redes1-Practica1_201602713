@@ -1,4 +1,3 @@
-
 # Manual de la Práctica N° 1
 
 Se configuró y administró los equipos de una infraestructura de red para "una empresa", la cual cuenta con 4 host que a su vez están conectados a 2 switches distintos y estos se conectan entre sí por medio de un router el cuál será el centro principal de comunicación. Lo que se le solicitó es que las 4 máquinas puedan comunicarse entre sí sin ningún problema.
@@ -71,19 +70,19 @@ Repetir otra vez del paso **2** al **8** para fastEthernet 0/1 y continuar con e
 >11. write memory
 
 ![](Imágenes/confRouter.PNG)
->Imagen 3: Configuración del Router
+>Imagen 4: Configuración del Router
 
 ## Configurar Máquina Virtual
 
 Para configurar la maquina virual se debe iniciar como los anteriores dispositivos e inmediatamente se abrirá en el software de virtualización donde se haya creado, en este caso VMware. Al iniciar el sistema operativo dentro de la máquina virtual se deberá abrir el **Panel de Control** 
 
 ![](Imágenes/controlPanel.PNG)
->Imagen 3: Panel de Control
+>Imagen 5: Panel de Control
 
 Una vez abierto el panel de control hacer click en la opción de **Network** y se desplegará una ventana en la cual ingresaremos la dirección IP que deseamos; en este caso 192.168.13.15, oprimir **enter** y luego aplicamos y salimos.
 
 ![](Imágenes/ipVirtual.PNG)
->Imagen 3: Configuración de la IP en Máquina Virtual
+>Imagen 6: Configuración de la IP en Máquina Virtual
 
 Por último, abrimos una terminal y usamos los siguientes comandos:
 
@@ -92,6 +91,22 @@ Por último, abrimos una terminal y usamos los siguientes comandos:
 
 
 ![](Imágenes/ping.PNG)
->Imagen 3: Ping **[IP]**
+>Imagen 7: Ping **[IP]**
 
 Hacemos esto en las consolas de los VPCS también para verificar que todo este funcionando correctamente.
+
+## Glosario
+
+- **Topologia de red:** Son las diferentes distribuciones de los dispositivos, tales como routers, computadoras, switches, y las distintas conexiones que pueden haber en una red.  
+- **Router:** Producto de hardware que permite interconectar computadoras que funcionan en el marco de una red.
+- **VPCS:** Virtual PC Simulator por sus siglas en inglés, es un programa que permite simular una PC liviana que soporta DHCP y Ping. Solamente consume 2MB de RAM por instancia y no requiere una imagen adicional. 
+- **VM / Máquina virtual:** Es un software que emula un ordenador justo como si fuera una real. Este software ejecuta sistemas operativos como si fuera una aplicacion mientras este cree que está usando el hardware de un ordenador físico.
+- **VMWare / Virtual Box:** Es el software de virtualización que corre las diferentes máquinas virtuales que se tengan creadas.
+- **Network:** Es un grupo de dos o mas dispositivos o nodos que pueden comunicarse entre sí. Los dispositivos o nodos en cuestión pueden ser conectados por medio de conexiones físicas o inalámbricas.
+- **Host:** Es un ordenador que funciona como el punto de inicio y final de las transferencias de datos. Es generalmente descrito como el lugar donde redise un sitio web, el cual debe tener una dirección de Internet única (Dirección IP) y un nombre de dominio único o nombre de host.
+- **Ping:** Packet Internet Groper, por sus siglas en inglés, es un comando o una herramienta de diagnóstico que permite hacer una verificación del estado de una determinada conexión de un host local con al menos un equipo remoto contemplado dentro de una topología de red.
+- **Dirección IP:** Es un número que permite la identificacion de una interfaz en red de una computadora la cual puede ser estática o dinámica.
+- **Máscara de Red:** Es un número binario que especifica qué parte de la IP le corresponde a la red y qué parte le corresponde al host.
+- **Gateway:** Es una puerta de enlace que sirve de punto de acceso a otra red.
+- **full-duplex:** Cualidad de los elementos que perminten la entrada y salida de datos de forma simultánea.
+- **speed:** Cualidad de los elementos que indica la velocidad de transmisión y recepción de datos en Mbps.
